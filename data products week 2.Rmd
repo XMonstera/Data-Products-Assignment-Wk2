@@ -1,0 +1,24 @@
+---
+title: "Data Products Week 2 Assignment"
+author: "Francesca"
+date: "5 April 2017"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is my map using leaflet for the peer review
+## I added a circle and a popup
+
+
+```{r cars}
+library(leaflet)
+
+mbfc_map <-leaflet() %>%
+  addTiles() %>%
+  addCircles(lat=1.2803,lng=103.8543, weight=3, color="red", radius=250,  popup="Marina Bay Financial Centre")
+mbfc_map
+
+```
