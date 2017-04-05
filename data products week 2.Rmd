@@ -2,15 +2,15 @@
 title: "Data Products Week 2 Assignment"
 author: "Francesca"
 date: "5 April 2017"
-output: word_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## This is my map using leaflet for the peer review
-## I added a circle and a popup
+## This is the map of my office for Data Products Assignment
+## I used a circle and a popup to identify location of the office blocks
 
 
 ```{r cars}
